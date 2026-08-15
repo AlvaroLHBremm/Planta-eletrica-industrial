@@ -4,5 +4,13 @@ e comercial completa, incluindo quadro de cargas, dimensionamento de circuitos e
 
 ![image alt](https://github.com/AlvaroLHBremm/Planta-eletrica-industrial-com-quadro-de-cargas/blob/main/Planta%20el%C3%A9trica%20e%20quadro%20de%20cargas.png?raw=true)
 
+# Parametros e Restrições
 
-Devido a extensão deste projeto em conjunto de demais projetos da mesma disciplina, o professor regente autorizou a simplificação de certos cálculos. Para a corrente de dimensionamento foi adicionado uma margem de segurança de 25% para substituir fatores de agrupamento e de temperatura em relação a espessura da bitola do ramal.
+A planta do projeto se trada de um edificio hipetético, sendo igual para todos os alunos, diferindo-se levemente a depender de como o aluno reproduziu o desenho em softwares como AutoCAD ou FreeCAD. O layout do projeto se trada de um edificio hipetético
+
+<!-- Layout original -->
+
+
+
+
+Devido a extensão deste projeto em conjunto de demais projetos da mesma disciplina, o professor regente autorizou a simplificação de certos cálculos. Para a corrente de dimensionamento foi adicionado um fator de margem de segurança de 25% para substituir fatores de agrupamento e de temperatura em relação a espessura da bitola do ramal.
