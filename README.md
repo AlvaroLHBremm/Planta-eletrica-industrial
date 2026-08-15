@@ -2,7 +2,7 @@
 Projeto acadêmico desenvolvimento utilizando FreeCAD durante a disciplina `maquina e acionamentos` de uma planta elétrica industrial
 e comercial completa, incluindo quadro de cargas, dimensionamento de circuitos e dispositivos de proteção, com foco em aplicações industriais.
 
-<p align="center"> <img src="figs/plantca_completa.png" alt="diagrama" width="100%"></p>
+<p align="center"> <img src="figs/planta_completa.png" alt="diagrama" width="100%"></p>
 <p align="center"><b>planta elétrica</b></p>
 
 # Parametros e Restrições
