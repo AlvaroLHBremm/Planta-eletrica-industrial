@@ -8,7 +8,7 @@ e comercial completa, incluindo quadro de cargas, dimensionamento de circuitos e
 # Parametros e Restrições
 
 <p align="center"> <img src="figs/planta.png" alt="diagrama" width="100%"></p>
-
+<p align="center"> <img src="figs/planta_eletrica.png" alt="diagrama" width="100%"></p>
 <p align="center"> <img src="figs/parametros.png" alt="diagrama" width="100%"></p>
 
 A planta do projeto se trada de um edificio hipetético, sendo igual para todos os alunos, diferindo-se levemente a depender de como o aluno reproduziu o desenho em softwares como AutoCAD ou FreeCAD. O layout do projeto se trada de um edificio hipetético
