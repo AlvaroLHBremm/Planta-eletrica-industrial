@@ -2,9 +2,14 @@
 Projeto acadêmico desenvolvimento utilizando FreeCAD durante a disciplina `maquina e acionamentos` de uma planta elétrica industrial
 e comercial completa, incluindo quadro de cargas, dimensionamento de circuitos e dispositivos de proteção, com foco em aplicações industriais.
 
-![image alt](https://github.com/AlvaroLHBremm/Planta-eletrica-industrial-com-quadro-de-cargas/blob/main/Planta%20el%C3%A9trica%20e%20quadro%20de%20cargas.png?raw=true)
+<p align="center"> <img src="figs/planta_completa.png" alt="diagrama" width="100%"></p>
+<p align="center"><b>planta elétrica</b></p>
 
 # Parametros e Restrições
+
+<p align="center"> <img src="figs/planta.png" alt="diagrama" width="100%"></p>
+
+<p align="center"> <img src="figs/parametros.png" alt="diagrama" width="100%"></p>
 
 A planta do projeto se trada de um edificio hipetético, sendo igual para todos os alunos, diferindo-se levemente a depender de como o aluno reproduziu o desenho em softwares como AutoCAD ou FreeCAD. O layout do projeto se trada de um edificio hipetético
 
