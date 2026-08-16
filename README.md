@@ -23,25 +23,24 @@ Devido a extensão deste projeto em conjunto de demais projetos da mesma discipl
 Levando em conta que edificios comerciais possuem uma rotação de pessoas significativa, pode-se estiupular os calculos de correntes não pelo maximo disponivel, mas sim pela média de utilização. Ai entra os fatores de potencia com o intuito de diminuir custos associando habitos as necessidades de energia da maneira mais eficiente. Para este projeto fou estipulato fatores de utilização de 70% para os circuitos de iluminação, 80% Para os circuitos das tomadas de uso geral e 100% para as tomadas de uso exclusivo, pois devido a sua alta potencia, mesmo com baixo uso, não se deve estipular para baixo sua corrente e condutor.
 
 
-| Fator  de potencia | valor |
-| :---: | :--- |
-| `Iluminação` | 0,70 |
-| `TUG` | 0,70 |
-| `TUE` | 0,70 |
+## Fatores adotados
 
-### Fatores de potencia industrial
-Para mas maquininhas
+### Área comercial
 
-| Fator  de potencia | valor |
-| :---: | :--- |
-| `utilização` | 0,70 |
-| `Simultaneadade` | 0,85 |
+| Tipo de carga | Fator de utilização |
+| --- | ---: |
+| Iluminação | 0,70 |
+| TUG | 0,80 |
+| TUE | 1,00 |
 
-### Fatores de demanda
-| Fator  de potencia | valor |
-| :---: | :--- |
-| `utilização` | 0,70 |
-| `Simultaneadade` | 0,85 |
+### Área industrial
+
+| Fator | Valor |
+| --- | ---: |
+| Utilização | 0,70 |
+| Simultaneidade | 0,85 |
+
+
 
 ## Divisão de potencia
 
