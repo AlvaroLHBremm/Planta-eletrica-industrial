@@ -50,12 +50,6 @@ Devido a alimentação trifasica do edificio, é importante balancear a carga de
 | `S` | 13180 W |
 | `T` | 12000 W |
 
-
-
-
-<p align="center"> <img src="figs/planta_eletrica.png" alt="diagrama" width="100%"></p>
-<p align="center">Planta</p>
-
 <p align="center"> <img src="figs/parametros.png" alt="diagrama" width="100%"></p>
 <p align="center">Planta</p>
 
