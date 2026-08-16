@@ -9,6 +9,9 @@ e comercial completa, incluindo quadro de cargas, dimensionamento de circuitos e
 
 Durante a criação da planta foi dividido cada comodo de modo a aplicar as normas de iluminação proporcional a area e as normas de tomadas de uso geral proporcional ao perimetro do comodo. Em contraste, as tomadas de uso expessifico foram adicionados em comodos grandes para suportar ar-condicionaos e em banheiros para suportar chuveiros, suas potencias foram estipuladas de acorda com a média de potencia dos ar-condicionados e chuveiros do mercado.
 
+<p align="center"> <img src="figs/planta.png" alt="diagrama" width="100%"></p>
+<p align="center">Planta</p>
+
 Devido a extensão deste projeto em conjunto de demais projetos da mesma disciplina, o professor regente autorizou a simplificação de certos cálculos. Para a corrente de dimensionamento foi adicionado um fator de margem de segurança de 25% para substituir fatores de agrupamento e de temperatura em relação a espessura da bitola do ramal.
 
 ## Fatores de potencia
@@ -48,8 +51,7 @@ Devido a alimentação trifasica do edificio, é importante balancear a carga de
 | `T` | 12000 W |
 
 
-<p align="center"> <img src="figs/planta.png" alt="diagrama" width="100%"></p>
-<p align="center">Planta</p>
+
 
 <p align="center"> <img src="figs/planta_eletrica.png" alt="diagrama" width="100%"></p>
 <p align="center">Planta</p>
