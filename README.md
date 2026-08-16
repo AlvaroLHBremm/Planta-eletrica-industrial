@@ -9,6 +9,10 @@ e comercial completa, incluindo quadro de cargas, dimensionamento de circuitos e
 
 Durante a criação da planta foi dividido cada comodo de modo a aplicar as normas de iluminação proporcional a area e as normas de tomadas de uso geral proporcional ao perimetro do comodo. Em contraste, as tomadas de uso expessifico foram adicionados em comodos grandes para suportar ar-condicionaos e em banheiros para suportar chuveiros, suas potencias foram estipuladas de acorda com a média de potencia dos ar-condicionados e chuveiros do mercado.
 
+Calculo de BTU: 600 BTU por m/2.
+
+BTU para watts: BTu * 0,293
+
 <p align="center"> <img src="figs/planta.png" alt="diagrama" width="100%"></p>
 <p align="center">Planta</p>
 
