@@ -5,17 +5,44 @@ e comercial completa, incluindo quadro de cargas, dimensionamento de circuitos e
 <p align="center"> <img src="figs/planta_completa.png" alt="diagrama" width="100%"></p>
 <p align="center"><b>planta elétrica</b></p>
 
-# Parametros e Restrições
+# Metodologia
+
+## Fatores de potencia
+
+Levando em conta que edificios comerciais possuem uma rotação de pessoas significativa, pode-se estiupular os calculos de correntes não pelo maximo disponivel, mas sim pela média de utilização. Ai entra os fatores de potencia com o intuito de diminuir custos associando habitos as necessidades de energia da maneira mais eficiente. Para este projeto fou estipulato fatores de utilização de 70% para os circuitos de iluminação, 80% Para os circuitos das tomadas de uso geral e 100% para as tomadas de uso exclusivo, pois devido a sua alta potencia, mesmo com baixo uso, não se deve estipular para baixo sua corrente e condutor.
+
+### Fatores de potencia
+| Fator  de potencia | valor |
+| :---: | :--- |
+| `Iluminação` | 0,70 |
+| `TUG` | 0,70 |
+| `TUE` | 0,70 |
+
+## Divisão de potencia
+
+Devido a alimentação trifasica do edificio, é importante balancear a carga de cada fase uniformemente, pois com a diminuição do condutor devido ao efeito triasico , pode-se atribuir muita carga a uma fase, ultrapassando a corrente estiulada dos condutores. Por isso na tabela abaixo, na coluna `fase`, cada circuito é atribuida a uma fase do modo mais balanceado possivel para o projeto.
+
+
+| Fase | potencia |
+| :---: | :--- |
+| `R` | 11560 W |
+| `S` | 13180 W |
+| `T` | 12000 W |
+
 
 <p align="center"> <img src="figs/planta.png" alt="diagrama" width="100%"></p>
+<p align="center">Planta</p>
+
 <p align="center"> <img src="figs/planta_eletrica.png" alt="diagrama" width="100%"></p>
+<p align="center">Planta</p>
+
 <p align="center"> <img src="figs/parametros.png" alt="diagrama" width="100%"></p>
+<p align="center">Planta</p>
 
 A planta do projeto se trada de um edificio hipetético, sendo igual para todos os alunos, diferindo-se levemente a depender de como o aluno reproduziu o desenho em softwares como AutoCAD ou FreeCAD. O layout do projeto se trada de um edificio hipetético
 
-<!-- Layout original -->
 
-
+Memorial técnico](https://github.com/AlvaroLHBremm/Planta-eletrica-industrial/blob/main/docs/memorial.pdf)
 
 
 Devido a extensão deste projeto em conjunto de demais projetos da mesma disciplina, o professor regente autorizou a simplificação de certos cálculos. Para a corrente de dimensionamento foi adicionado um fator de margem de segurança de 25% para substituir fatores de agrupamento e de temperatura em relação a espessura da bitola do ramal.
