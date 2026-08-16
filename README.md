@@ -7,16 +7,34 @@ e comercial completa, incluindo quadro de cargas, dimensionamento de circuitos e
 
 # Metodologia
 
+Durante a criação da planta foi dividido cada comodo de modo a aplicar as normas de iluminação proporcional a area e as normas de tomadas de uso geral proporcional ao perimetro do comodo. Em contraste, as tomadas de uso expessifico foram adicionados em comodos grandes para suportar ar-condicionaos e em banheiros para suportar chuveiros, suas potencias foram estipuladas de acorda com a média de potencia dos ar-condicionados e chuveiros do mercado.
+
+Devido a extensão deste projeto em conjunto de demais projetos da mesma disciplina, o professor regente autorizou a simplificação de certos cálculos. Para a corrente de dimensionamento foi adicionado um fator de margem de segurança de 25% para substituir fatores de agrupamento e de temperatura em relação a espessura da bitola do ramal.
+
 ## Fatores de potencia
 
 Levando em conta que edificios comerciais possuem uma rotação de pessoas significativa, pode-se estiupular os calculos de correntes não pelo maximo disponivel, mas sim pela média de utilização. Ai entra os fatores de potencia com o intuito de diminuir custos associando habitos as necessidades de energia da maneira mais eficiente. Para este projeto fou estipulato fatores de utilização de 70% para os circuitos de iluminação, 80% Para os circuitos das tomadas de uso geral e 100% para as tomadas de uso exclusivo, pois devido a sua alta potencia, mesmo com baixo uso, não se deve estipular para baixo sua corrente e condutor.
 
-### Fatores de potencia
+
 | Fator  de potencia | valor |
 | :---: | :--- |
 | `Iluminação` | 0,70 |
 | `TUG` | 0,70 |
 | `TUE` | 0,70 |
+
+### Fatores de potencia industrial
+Para mas maquininhas
+
+| Fator  de potencia | valor |
+| :---: | :--- |
+| `utilização` | 0,70 |
+| `Simultaneadade` | 0,85 |
+
+### Fatores de demanda
+| Fator  de potencia | valor |
+| :---: | :--- |
+| `utilização` | 0,70 |
+| `Simultaneadade` | 0,85 |
 
 ## Divisão de potencia
 
@@ -45,4 +63,4 @@ A planta do projeto se trada de um edificio hipetético, sendo igual para todos 
 Memorial técnico](https://github.com/AlvaroLHBremm/Planta-eletrica-industrial/blob/main/docs/memorial.pdf)
 
 
-Devido a extensão deste projeto em conjunto de demais projetos da mesma disciplina, o professor regente autorizou a simplificação de certos cálculos. Para a corrente de dimensionamento foi adicionado um fator de margem de segurança de 25% para substituir fatores de agrupamento e de temperatura em relação a espessura da bitola do ramal.
+
