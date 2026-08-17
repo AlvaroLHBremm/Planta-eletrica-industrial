@@ -49,13 +49,12 @@ Levando em conta que edificios comerciais possuem uma rotação de pessoas signi
 
 Devido a alimentação trifasica do edificio, é importante balancear a carga de cada fase uniformemente, pois com a diminuição do condutor devido ao efeito triasico , pode-se atribuir muita carga a uma fase, ultrapassando a corrente estiulada dos condutores. Por isso na tabela abaixo, na coluna `fase`, cada circuito é atribuida a uma fase do modo mais balanceado possivel para o projeto.
 
-<div align="center">
-  | Fase | potencia |
-  | :---: | :--- |
-  | `R` | 11560 W |
-  | `S` | 13180 W |
-  | `T` | 12000 W |
-</div>
+| Fase | potencia |
+| :---: | :--- |
+| `R` | 11560 W |
+| `S` | 13180 W |
+| `T` | 12000 W |
+
 <p align="center"> <img src="figs/parametros.png" alt="diagrama" width="100%"></p>
 <p align="center">Planta</p>
 
