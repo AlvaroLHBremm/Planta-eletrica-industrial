@@ -12,12 +12,13 @@ Durante a criação da planta foi dividido cada comodo de modo a aplicar as norm
 <p align="center"> <img src="figs/planta.png" alt="diagrama" width="100%"></p>
 <p align="center">Planta</p>
 
+<!--
 ### Climatização
 
 Para o dimensionamento simplificado das cargas de climatização, foi adotada
 uma relação de 600 BTU/h por m² de área. A capacidade térmica obtida foi
 posteriormente convertida para potência para inclusão no quadro de cargas.
-
+-->
 
 
 
