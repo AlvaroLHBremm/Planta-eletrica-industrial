@@ -1,5 +1,5 @@
 # Planta eletrica industrial com quadro de cargas
-Projeto acadêmico desenvolvimento utilizando FreeCAD durante a disciplina `maquina e acionamentos` de uma planta elétrica industrial
+Projeto acadêmico desenvolvimento utilizando LibeCAD durante a disciplina `maquina e acionamentos` de uma planta elétrica industrial
 e comercial completa, incluindo quadro de cargas, dimensionamento de circuitos e dispositivos de proteção, com foco em aplicações industriais.
 
 <p align="center"> <img src="figs/planta_completa.png" alt="diagrama" width="100%"></p>
@@ -7,20 +7,12 @@ e comercial completa, incluindo quadro de cargas, dimensionamento de circuitos e
 
 # Metodologia
 
+A planta do projeto se trada de um edificio hipetético, sendo igual para todos os alunos, diferindo-se levemente a depender de como o aluno reproduziu o desenho em softwares como AutoCAD ou FreeCAD. O layout do projeto se trada de um edificio hipetético
+
 Durante a criação da planta foi dividido cada comodo de modo a aplicar as normas de iluminação proporcional a area e as normas de tomadas de uso geral proporcional ao perimetro do comodo. Em contraste, as tomadas de uso expessifico foram adicionados em comodos grandes para suportar ar-condicionaos e em banheiros para suportar chuveiros, suas potencias foram estipuladas de acorda com a média de potencia dos ar-condicionados e chuveiros do mercado.
 
 <p align="center"> <img src="figs/planta.png" alt="diagrama" width="100%"></p>
 <p align="center">Planta</p>
-
-<!--
-### Climatização
-
-Para o dimensionamento simplificado das cargas de climatização, foi adotada
-uma relação de 600 BTU/h por m² de área. A capacidade térmica obtida foi
-posteriormente convertida para potência para inclusão no quadro de cargas.
--->
-
-
 
 Devido a extensão deste projeto em conjunto de demais projetos da mesma disciplina, o professor regente autorizou a simplificação de certos cálculos. Para a corrente de dimensionamento foi adicionado um fator de margem de segurança de 25% para substituir fatores de agrupamento e de temperatura em relação a espessura da bitola do ramal.
 
@@ -61,10 +53,10 @@ Devido a alimentação trifasica do edificio, é importante balancear a carga de
 <p align="center"> <img src="figs/parametros.png" alt="diagrama" width="100%"></p>
 <p align="center">Planta</p>
 
-A planta do projeto se trada de um edificio hipetético, sendo igual para todos os alunos, diferindo-se levemente a depender de como o aluno reproduziu o desenho em softwares como AutoCAD ou FreeCAD. O layout do projeto se trada de um edificio hipetético
 
 
-Memorial técnico](https://github.com/AlvaroLHBremm/Planta-eletrica-industrial/blob/main/docs/memorial.pdf)
+
+[Memorial técnico](https://github.com/AlvaroLHBremm/Planta-eletrica-industrial/blob/main/docs/memorial.pdf)
 
 
 
